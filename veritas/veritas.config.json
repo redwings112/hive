@@ -1,0 +1,9 @@
+{
+  "appId": "aden-alpha-service",
+  "path": "artifacts/veritas-dashboard/public/data/veritas_builds/veritas_builds/veritas_builds",
+  "environment": "development",
+  "watchdog": {
+    "autoHeal": true,
+    "criticalKeywords": ["ERR_", "FATAL", "ReferenceError", "StandardError"]
+  }
+}

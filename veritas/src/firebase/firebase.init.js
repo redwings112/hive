@@ -1,0 +1,6 @@
+// From VeritasBuildDashboard.jsx
+import { initializeApp } from 'firebase/app';
+// ...
+const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
+// ...
+const app = initializeApp(firebaseConfig);
